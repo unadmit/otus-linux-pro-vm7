@@ -118,7 +118,7 @@
  lsinitrd -m /boot/initramfs-$(uname -r).img
  ```
 ![image](https://user-images.githubusercontent.com/122820579/227780438-3bc59f02-e34a-4a99-83c9-9e59ee10d2d0.png)
-- Увеличена подробность выводимых при загрузки системы сообщений.
+- Увеличена подробность выводимых при загрузке системы сообщений.
  ```
  cat /boot/grub2/grub.cfg | grep quiet
  sed -i 's/rhgb quiet//g' /boot/grub1/grub.cfg
