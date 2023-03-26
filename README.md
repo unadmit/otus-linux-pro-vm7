@@ -97,7 +97,7 @@
      return 0
  }
  install() {
-     inst_hook cleanup 00 "${moddir}/test.sh"
+     inst_hook cleanup 00 "/usr/lib/dracut/modules.d/01test/test.sh"
  }
  EOF
  ```
